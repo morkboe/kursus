@@ -15,7 +15,7 @@ namespace intro.Controllers
         }
         public ActionResult Index2()
         {
-            string navn = "element";
+            string navn = "element nr. 1";
 
             return Json(navn, JsonRequestBehavior.AllowGet);
         }
