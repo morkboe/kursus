@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Min app</title>
+    @RenderSection("styles")
+</head>
+<body>
+    <h1>Min app</h1>
+    <hr />
+
+    @RenderBody()
+
+    <hr />
+    <h5>Min footer</h5>
+
+    @RenderSection("footer", false)
+
+</body>
+</html>
